@@ -1,0 +1,1195 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.box {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+/* ==============================
+    1.nav part start
+================================= */
+
+nav {
+    padding: 30px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+nav .logo {
+    width: 20%;
+}
+
+nav .nav-item {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav-item ul {
+    display: flex;
+    column-gap: 40px;
+}
+
+nav .nav-item ul li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #EFF4FA;
+    transition: .4s;
+}
+
+nav .nav-item ul li:hover {
+    color: #D6A033;
+}
+
+nav .nav-item ul li i {
+    padding-left: 8px;
+    font-size: 15px;
+}
+
+nav .nav-item ul li:hover i {
+    color: #EFF4FA;
+}
+
+nav .button {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav .button a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    background: #D6A033;
+    padding: 14px 28px;
+    display: inline-block;
+    color: #EFF4FA;
+    transition: .4s;
+    border: 1px solid transparent;
+}
+
+nav .button a:hover {
+    background: transparent;
+    color: #D6A033;
+    border: 1px solid #D6A033;
+}
+
+/* ==============================
+    1.nav part end
+================================= */
+
+
+
+
+
+
+/* ==============================
+    2.banner part start
+================================= */
+
+.banner-part {
+    background: url(../images/banner-bg.png) no-repeat center;
+    background-size: cover;
+    padding-top: 302px;
+    padding-bottom: 222px;
+}
+
+.banner-part .banner-text {
+    width: 60%;
+}
+
+.banner-part .banner-text h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 64px;
+    font-weight: 900;
+    color: #D6A033;
+    margin-bottom: 16px;
+}
+
+.banner-part .banner-text h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 64px;
+    font-weight: 800;
+    color: #F5F2EB;
+    margin-bottom: 20px;
+}
+
+.banner-part .banner-text p {
+    font-family: 'Paprika', cursive;
+    font-size: 22px;
+    line-height: 36px;
+    color: #BEBBB4;
+    width: 600px;
+    margin-bottom: 56px;
+}
+
+.banner-part .banner-text .button a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    background: #D6A033;
+    padding: 14px 28px;
+    display: inline-block;
+    color: #EFF4FA;
+    transition: .4s;
+    border: 1px solid transparent;
+}
+
+.banner-part .banner-text .button a:hover {
+    background: transparent;
+    color: #D6A033;
+    border: 1px solid #D6A033;
+}
+
+.banner-part .banner-img {
+    width: 40%;
+    position: relative;
+}
+
+.banner-part .banner-img img {
+    position: absolute;
+    top: 50%;
+    right: -100px;
+    transform: translateY(-50%);
+}
+
+/* ==============================
+    2.banner part end
+================================= */
+
+
+
+
+
+
+/* ==============================
+    3.about part end
+================================= */
+
+.about-part {
+    background: #FDFDFD;
+    padding: 100px 0;
+}
+
+.about-part .box {
+    column-gap: 24px;
+}
+
+.about-part .about-img {
+    width: 60%;
+}
+
+.about-part .about-img .left-img {}
+
+.about-part .about-img .left-img img {
+    display: block;
+    margin-bottom: 24px;
+}
+
+.about-part .about-text {
+    width: 40%;
+}
+
+.about-part .about-text h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 60px;
+    color: #363024;
+    margin-bottom: 20px;
+}
+
+.about-part .about-text p {
+    font-family: 'Paprika', cursive;
+    font-size: 18px;
+    line-height: 32px;
+    color: #BEBBB4;
+    margin-bottom: 24px;
+}
+
+.about-part .about-text .button a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    background: #D6A033;
+    padding: 14px 28px;
+    display: inline-block;
+    color: #EFF4FA;
+    transition: .4s;
+    border: 1px solid transparent;
+}
+
+.about-part .about-text .button a:hover {
+    background: transparent;
+    color: #D6A033;
+    border: 1px solid #D6A033;
+}
+
+/* ==============================
+    3.about part end
+================================= */
+
+
+
+
+
+
+
+/* ==============================
+    4.service part start
+================================= */
+
+.service-part {
+    background: #FCFCFC;
+    padding-top: 100px;
+    padding-bottom: 72px;
+
+}
+
+.service-part .service-title {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.service-part .service-title h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    color: #363024;
+    margin-bottom: 20px;
+}
+
+.service-part .service-title p {
+    font-family: 'Paprika', cursive;
+    font-size: 18px;
+    line-height: 32px;
+    color: #524D43;
+    width: 645px;
+    margin: 0 auto;
+}
+
+.service-part .box {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 12px;
+}
+
+.service-part .service-item {
+    width: 44%;
+}
+
+.service-part .service-item>p {
+    width: 325px;
+    font-family: 'Paprika', cursive;
+    font-size: 18px;
+    line-height: 32px;
+    color: #524D43;
+}
+
+.service-part .service-item .service-item-title {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.service-part .service-item .service-item-title h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #363024;
+    margin-bottom: 16px;
+}
+
+.service-part .service-item .service-item-title p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    color: #D6A033;
+}
+
+/* ==============================
+    4.service part end
+================================= */
+
+
+
+
+
+
+
+
+
+/* ==============================
+    5.choose part start
+================================= */
+
+.choose-part {
+    padding-top: 100px;
+    padding-bottom: 75px;
+}
+
+.choose-part .choose-text {
+    width: 60%;
+}
+
+.choose-part .choose-text h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    color: #363024;
+    margin-bottom: 36px;
+}
+
+.choose-part .choose-text .choose-text-item {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.choose-part .choose-text .choose-text-item .choose-txt-item-icon {
+    width: 15%;
+}
+
+.choose-part .choose-text .choose-text-item .choose-txt-item-icon .icon-bg {
+    width: 64px;
+    height: 64px;
+    background: #FBF6EB;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choose-part .choose-text .choose-text-item .choose-txt-item-icon .icon-bg img {}
+
+.choose-part .choose-text .choose-text-item .choose-txt-item-title {
+    width: 85%;
+}
+
+.choose-part .choose-text .choose-text-item .choose-txt-item-title h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #363024;
+    margin-bottom: 16px;
+}
+
+.choose-part .choose-text .choose-text-item .choose-txt-item-title p {
+    font-family: 'Paprika', cursive;
+    font-size: 18px;
+    line-height: 32px;
+    color: #524D43;
+    width: 360px;
+}
+
+.choose-part .choose-img {
+    width: 40%;
+    position: relative;
+}
+
+.choose-part .choose-img img {
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.choose-part .choose-img .choose-lg {
+    width: 100%;
+    height: 100%;
+}
+
+.choose-part .choose-img .choose-bg {
+    width: 100%;
+    top: -40px;
+    left: 40px;
+    animation: choosebg 2.5s infinite alternate linear;
+}
+
+@keyframes choosebg {
+    form {
+        transform: translate(0, 0);
+    }
+
+    to {
+        transform: translate(30px, -30px);
+    }
+}
+
+.choose-part .choose-img .choose-sm {
+    top: 50%;
+    left: -25%;
+    animation: choosesm 2.5s infinite alternate linear;
+}
+
+@keyframes choosesm {
+    form {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(40px);
+    }
+}
+
+/* ==============================
+    5.choose part end
+================================= */
+
+
+
+
+
+
+/* ==============================
+    6.work part start
+================================= */
+
+.work-part {
+    position: relative;
+}
+
+.work-part>img {
+    width: 100%;
+}
+
+.work-part .work-wrap {
+    position: absolute;
+    bottom: -133px;
+    width: 100%;
+}
+
+.work-part .work-title {
+    width: 40%;
+}
+
+.work-part .work-title h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    color: #FBFBFA;
+}
+
+.work-part .work-menu {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.work-part .work-menu ul {
+    display: flex;
+    column-gap: 36px;
+}
+
+.work-part .work-menu ul li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #FBFBFA;
+    transition: .4s;
+}
+
+.work-part .work-menu ul li:hover {
+    color: #D6A033;
+}
+
+.work-part .work-wrap .box {}
+
+.work-part .work-item {
+    margin-top: 64px;
+}
+
+.work-part .work-item .box {
+    justify-content: space-between;
+}
+
+/* ==============================
+    6.work part end
+================================= */
+
+
+
+
+
+
+/* ==============================
+    7.product part start
+================================= */
+
+.product-part {
+    background: #FCFBF9;
+    padding-top: 224px;
+    padding-bottom: 100px;
+}
+
+.product-part h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    color: #363024;
+    margin-bottom: 70px;
+}
+
+.product-part .box {
+    justify-content: space-between;
+}
+
+.product-part .product-item {
+    width: 24%;
+    overflow: hidden;
+    border: 2px solid transparent;
+    transition: .4s;
+    -webkit-box-shadow: 0px 0px 77px -20px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0px 0px 77px -20px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 0px 77px -20px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+}
+
+.product-part .product-item:hover {
+    border: 2px solid #D6A033;
+}
+
+.product-part .product-item img {
+    width: 100%;
+    display: block;
+}
+
+.product-part .product-item .img-details-bg{
+    background: #fbf3e2;
+    transition: .4s;
+}
+
+.product-part .product-item .img-details-bg .img-details {
+    background: #fbf3e2;
+    padding: 0px 12px;
+    transform: translateY(20px);
+    transition: .4s;
+    
+}
+.product-part .product-item:hover .img-details-bg {
+    background: #D6A033;
+}
+
+.product-part .product-item:hover .img-details-bg .img-details {
+    background: #D6A033;
+    box-sizing: border-box;
+    transform: translateY(-20px);
+}
+
+.product-part .product-item .img-details-bg .img-details h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #363024;
+    margin-bottom: 8px;
+    transition: .4s;
+}
+
+.product-part .product-item:hover .img-details-bg .img-details h4{
+    color: #FBFBFA;
+}
+
+.product-part .product-item .img-details-bg .img-details .price-info p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #D6A033;
+    margin-bottom: 8px;
+    transition: .4s;
+}
+
+.product-part .product-item:hover .img-details-bg .img-details .price-info p{
+    color: #FBFBFA;
+}
+
+.product-part .product-item .img-details-bg .img-details .price-info span{
+    font-family: 'Paprika', cursive;
+    font-size: 16px;
+    font-weight: 400;
+    color: #363024;
+    transition: .4s;
+}
+
+.product-part .product-item:hover .img-details-bg .img-details .price-info span{
+    color: #FBFBFA;
+}
+
+.product-part .product-item:hover .img-details-bg .img-details h4 {
+    
+}
+
+.product-part .product-item .img-details-bg .img-details .price-info{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-part .product-item .img-details-bg .img-details .view-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.product-part .product-item .img-details-bg .img-details .view-details p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #FBFBFA;
+    text-transform: uppercase;
+}
+
+.product-part .product-item .img-details-bg .img-details .view-details .icon i {
+    color: #FBFBFA;
+}
+
+.product-part .product-item .img-details-bg .img-details .view-details .icon i:last-child {
+    padding-left: 12px;
+}
+
+
+/* ==============================
+    7.product part end
+================================= */
+
+
+
+
+
+
+
+/* ==============================
+    8.team part start
+================================= */
+
+.team-part {
+    padding: 100px 0;
+}
+
+.team-part .box {
+    justify-content: space-between;
+}
+
+.team-part .team-img {
+    width: 48%;
+    position: relative;
+}
+
+.team-part .team-img img {}
+
+.team-part .team-img .choose-bg {
+    position: absolute;
+    top: -40px;
+    left: -40px;
+    animation: teambg 2.5s infinite alternate linear;
+}
+
+@keyframes teambg {
+    form{
+        transform: translate(0, 0);
+    }
+    to {
+        transform: translate(20px, -20px);
+    }
+}
+
+.team-part .team-img .choose-lg {
+    position: relative;
+    width: 100%;
+}
+
+.team-part .team-img .ceo-info {
+    position: absolute;
+    bottom: 51px;
+    width: 100%;
+    text-align: center;
+}
+
+.team-part .team-img .ceo-info h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    color: #FBFBFA;
+    margin-bottom: 12px;
+}
+
+.team-part .team-img .ceo-info p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #F8C355;
+}
+
+.team-part .team-details {
+    width: 48%;
+}
+
+.team-part .team-details h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    color: #363024;
+    margin-bottom: 20px;
+}
+
+.team-part .team-details p {
+    font-family: 'Paprika', cursive;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #524D43;
+    margin-bottom: 60px;
+    width: 469px;
+}
+
+.team-part .team-details .team-sm-img {
+    display: flex;
+    justify-content: space-between;
+    transform: translateX(-85px);
+}
+
+/* ==============================
+    8.team part end
+================================= */
+
+
+
+
+
+
+
+/* ==============================
+    9.testimonial part start
+================================= */
+
+.testimonial-part {
+    padding: 100px 0;
+}
+
+.testimonial-part .box {
+    justify-content: space-between;
+}
+
+.testimonial-part .testimonial-title {
+    text-align: center;
+}
+
+.testimonial-part .testimonial-title h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    color: #363024;
+    margin-bottom: 64px;
+}
+
+.testimonial-part .testimonial-left {
+    width: 48%;
+}
+
+.testimonial-part .testimonial-left img {
+    margin-bottom: 32px;
+}
+
+.testimonial-part .testimonial-left .testimonial-left-para {
+    background: url(../images/testimonial-text-bg.png) no-repeat;
+    background-position: bottom left;
+    padding-bottom: 26px;
+}
+
+.testimonial-part .testimonial-left .testimonial-left-para p {
+    font-family: 'Paprika', cursive;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #524D43;
+    width: 490px;
+}
+
+.testimonial-part .testimonial-left .user-info {
+    display: flex;
+    margin-top: 24px;
+}
+
+.testimonial-part .testimonial-left .user-info img {
+    margin-right: 24px;
+}
+
+.testimonial-part .testimonial-left .user-info .user-name {}
+
+.testimonial-part .testimonial-left .user-info .user-name h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    color: #363024;
+    margin-bottom: 12px;
+}
+
+.testimonial-part .testimonial-left .user-info .user-name p {
+    font-family: 'Paprika', cursive;
+    font-size: 18px;
+    font-weight: 400;
+    color: #524D43;
+    margin-bottom: 16px;
+}
+
+.testimonial-part .testimonial-left .user-info .user-name i {
+    color: #D6A033;
+}
+
+.testimonial-part .testimonial-right {
+    width: 48%;
+}
+
+.testimonial-part .testimonial-right img {
+    margin-bottom: 32px;
+}
+
+.testimonial-part .testimonial-right .testimonial-right-para {
+    background: url(../images/testimonial-text-bg.png) no-repeat;
+    background-position: bottom left;
+    padding-bottom: 26px;
+}
+
+.testimonial-part .testimonial-right .testimonial-right-para p {
+    font-family: 'Paprika', cursive;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #524D43;
+    width: 490px;
+}
+
+.testimonial-part .testimonial-right .user-info {
+    display: flex;
+    margin-top: 24px;
+}
+
+.testimonial-part .testimonial-right .user-info img {
+    margin-right: 24px;
+}
+
+.testimonial-part .testimonial-right .user-info .user-name {}
+
+.testimonial-part .testimonial-right .user-info .user-name h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    color: #363024;
+    margin-bottom: 12px;
+}
+
+.testimonial-part .testimonial-right .user-info .user-name p {
+    font-family: 'Paprika', cursive;
+    font-size: 18px;
+    font-weight: 400;
+    color: #524D43;
+    margin-bottom: 16px;
+}
+
+.testimonial-part .testimonial-right .user-info .user-name i {
+    color: #D6A033;
+}
+
+
+
+/* ==============================
+    9.testimonial part end
+================================= */
+
+
+/* ==============================
+    10.blog part start
+================================= */
+
+.blog-part {
+    background: #FDFDFD;
+    padding: 100px 0;
+}
+
+.blog-part .blog-title {
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.blog-part .blog-title h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    color: #363024;
+}
+
+.blog-part .blog-box {
+    justify-content: space-between;
+}
+
+.blog-part .blog-item {
+    width: 32%;
+    -webkit-box-shadow: 0px 0px 77px -20px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0px 0px 77px -20px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 0px 77px -20px rgba(0, 0, 0, 0.12);
+    border: 2px solid transparent;
+    transition: .4s;
+}
+
+.blog-part .blog-item:hover {
+    border: 2px solid #D6A033;
+    cursor: pointer;
+}
+
+.blog-part .blog-item img{
+    width: 100%;
+}
+
+.blog-part .blog-item .box {
+    margin-top: 24px;
+    padding-bottom: 16px;
+}
+
+.blog-part .blog-item .blog-date-wrap {
+    width: 20%;
+}
+
+.blog-part .blog-item .blog-date-wrap .blog-date {
+    display: inline-block;
+    text-align: center;
+    background: #F8F8F8;
+    padding: 12px 8px;
+    margin-left: 24px;
+}
+
+.blog-part .blog-item .blog-date h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #D6A033;
+    margin-bottom: 7px;
+}
+
+.blog-part .blog-item .blog-date p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: #363024;
+    margin-bottom: 11px;
+}
+
+.blog-part .blog-item .blog-date .comment i {
+    color: #524D43;
+}
+
+.blog-part .blog-item .blog-date .comment span {
+    color: #524D43;
+}
+
+.blog-part .blog-item .blog-details {
+    width: 80%;
+    margin-left: 20px;
+}
+
+.blog-part .blog-item .blog-details h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #363024;
+    width: 217px;
+    margin-bottom: 16px;
+}
+
+.blog-part .blog-item .blog-details>p {
+    font-family: 'Paprika', cursive;
+    font-size: 18px;
+    font-weight: 400;
+    color: #524D43;
+    margin-bottom: 13px;
+}
+
+.blog-part .blog-item .blog-details .blog-title-line {
+    width: 217px;
+    height: 1px;
+    background: #DDDCDA;
+    margin-bottom: 14px;
+
+}
+
+.blog-part .blog-item .blog-details .blog-read-more {
+    position: relative;
+}
+
+.blog-part .blog-item .blog-details .blog-read-more p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #D6A033;
+
+}
+
+.blog-part .blog-item .blog-details .blog-read-more i {
+    color: #D6A033;
+    position: absolute;
+    top: 3px;
+    right: 70px;
+}
+
+/* ==============================
+    10.blog part end
+================================= */
+
+
+
+
+
+/* ==============================
+    11.footer part start
+================================= */
+
+.footer-part{
+    background: #181D21;
+    padding-top: 140px;
+    padding-bottom: 80px;
+}
+
+.footer-part .footer-left {
+    width: 40%;
+}
+
+.footer-part .footer-left img {
+    margin-bottom: 44px;
+}
+
+.footer-part .footer-left p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 180%;
+    color: #FEFEFE;
+    width: 449px;
+}
+
+.footer-part .footer-right {
+    width: 60%;
+}
+
+.footer-part .footer-right .box {
+    justify-content: flex-end;
+}
+
+.footer-part .footer-right .footer-right-menu{
+    width: 32%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-part .footer-right .footer-right-menu .footer-right-menu-wrap {
+    
+}
+
+.footer-part .footer-right .footer-right-menu h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #FEFEFE;
+    margin-bottom: 48px;
+}
+
+.footer-part .footer-right .footer-right-menu ul li {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FEFEFE;
+    margin-bottom: 30px;
+    transition: .4s;
+}
+
+.footer-part .footer-right .footer-right-menu ul li:hover {
+    color: #D6A033;
+}
+
+.footer-part .footer-right .footer-right-menu ul li:last-child {
+    margin-bottom: 0;
+}
+
+/* ==============================
+    11.footer part end
+================================= */
+
+
+
+
+
+
+
+/* ==============================
+    12.copyright part start
+================================= */
+
+.copyright-part{
+    background: #181D21;
+    padding-bottom: 57px;
+}
+
+.copyright-part .box {
+    justify-content: space-between;
+}
+
+.copyright-part .copyright-text p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FEFEFE;
+}
+
+.copyright-part .policy-text ul {
+    display: flex;
+}
+
+.copyright-part .policy-text ul li {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FEFEFE;
+    padding-left: 40px;
+    transition: .4s;
+}
+
+.copyright-part .policy-text ul li:hover {
+    color: #D6A033;
+}
+
+.copyright-part .policy-text ul li:first-child {
+    padding-left: 0;
+}
+
+/* ==============================
+    12.copyright part end
+================================= */
