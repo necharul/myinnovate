@@ -75,9 +75,9 @@ nav .nav-item ul li i {
     font-size: 15px;
 }
 
-nav .nav-item ul li:hover i {
+/* nav .nav-item ul li:hover i {
     color: #EFF4FA;
-}
+} */
 
 nav .button {
     width: 20%;
@@ -181,6 +181,16 @@ nav .button a:hover {
     top: 50%;
     right: -100px;
     transform: translateY(-50%);
+    animation: bannerimg 2.5s infinite alternate linear;
+}
+
+@keyframes bannerimg{
+    from{
+        transform: translateY(-50%);
+    }
+    to{
+        transform: translateY(-60%);
+    }
 }
 
 /* ==============================
